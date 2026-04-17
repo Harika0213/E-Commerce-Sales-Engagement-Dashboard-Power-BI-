@@ -1,32 +1,82 @@
-# 📊 E-Commerce Sales & Customer Engagement Analysis
-**Focus:** Revenue Optimization, Customer Retention & Stakeholder Reporting
+🍬 E-Commerce Sales & Customer Analytics Dashboard
 
-## 📌 Business Problem
-The executive team lacked a centralized view of sales performance across different regions and product categories. Without real-time insights, the marketing team couldn't identify high-churn customer segments or the most profitable product sub-categories, leading to inefficient budget allocation.
+🧠 Business Problem
 
-## 🛠️ Tech Stack & Skills
-* **Tool:** Power BI Desktop
-* **Language:** DAX (Data Analysis Expressions) for complex measures
-* **Data Source:** Multi-table E-commerce dataset
-* **Key Skills:** Data Modeling (Star Schema), ETL (Power Query), Dashboard Design (UI/UX), Trend Analysis.
+The business lacked a centralized view of sales performance, customer behavior, and product profitability.
+This limited the ability to:
 
-## 🚀 Key Insights & Business Impact
-Through this analysis, I uncovered three critical business drivers:
+Identify high-value customers
 
-1.  **High-Value Retention:** Identified that 20% of the customer base contributes to 60% of total revenue; I recommended a targeted loyalty program for this segment.
-2.  **Product Seasonality:** Found a significant 15% dip in sales during [Insert Month] in the [Insert Region]. This allows the inventory team to adjust stock levels in advance.
-3.  **Shipping Efficiency:** Discovered that orders with "Standard Class" shipping had a 5% higher return rate compared to "First Class," suggesting a potential quality control issue in standard transit.
+Detect revenue leakage and churn patterns
 
-## 🔍 Analytical Questions Answered
-* What is the **Year-over-Year (YoY)** growth in profit margins?
-* Which **Product Categories** are underperforming relative to their inventory costs?
-* What is the **Customer Acquisition Cost (CAC)** trend over the last 4 quarters?
-* Which geographical regions show the highest **Revenue per Customer**?
+Optimize inventory and marketing spend
+
+📊 Dataset
+
+Source: E-commerce Sales Dataset
+Structure: Multi-table dataset (Orders, Customers, Products, Shipping)
+Scope: Sales, Profit, Customer Segments, Regions
+
+🔍 Data Processing & Modeling
+
+Designed a Star Schema for efficient data modeling
+Performed ETL using Power Query (cleaning, transformation, integration)
+Built DAX measures for:
+Revenue
+Profit Margin
+Customer Contribution
+YoY Growth
+
+📈 Key Insights:
+
+💰 Top 20% customers contribute ~60% of total revenue (high-value segment)
+
+📉 Identified ~15% seasonal dip in sales in specific regions
+
+🚚 Orders with Standard Shipping showed ~5% higher return rates
+
+📊 Certain product sub-categories consistently underperformed in profitability
+
+💡 Business Impact / Recommendations
+
+Implement targeted loyalty programs for top 20% customers to improve retention
+Adjust inventory planning based on seasonal demand fluctuations
+Investigate and optimize standard shipping processes to reduce returns
+Reallocate marketing budget toward high-performing products and regions
+
+🔍 Analytical Questions Answered
+
+What is the Year-over-Year growth in profit margins?
+
+Which product categories are underperforming vs cost?
+
+What are the trends in customer acquisition and retention?
+
+Which regions generate the highest revenue per customer?
+
+📊 Dashboard Features
+
+KPI Cards: Total Sales, Profit, Quantity
+Customer Segmentation: Top 10 customers by revenue
+Regional & Product Analysis
+Interactive Filters: Region, Segment, Time Period
+
+🛠 Tools & Technologies
+
+Power BI Desktop
+DAX (Data Analysis Expressions)
+Power Query (ETL & Data Transformation)
+
+📌 Why This Project Matters
+
+This project demonstrates the ability to:
+
+Perform end-to-end data analysis and modeling
+Identify revenue drivers and customer behavior patterns
+Translate data into actionable business strategies
+Build dashboards for stakeholder decision-making
 
 ## 📊 The Dashboard (Visualizations)
 ![Dashboard Preview](Project_Dashboard_Screenshot.png)
 
-**Key Features Includes:**
-* **Dynamic Filters:** Users can slice data by Region, Segment, and Time Period.
-* **KPI Cards:** Real-time tracking of Total Sales, Profit, and Quantity.
-* **Customer Breakdown:** Top 10 customers by sales volume.
+
